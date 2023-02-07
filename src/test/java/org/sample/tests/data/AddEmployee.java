@@ -1,4 +1,4 @@
-package org.sample.testcases.testdata;
+package org.sample.tests.data;
 
 import lombok.*;
 

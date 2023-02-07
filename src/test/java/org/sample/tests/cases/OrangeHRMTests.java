@@ -1,16 +1,16 @@
-package org.sample.testcases;
+package org.sample.tests.cases;
 
 import io.github.sskorol.core.DataSupplier;
 import io.github.sskorol.data.JsonReader;
 import one.util.streamex.StreamEx;
 import org.sample.designpattern.orangehrm.pages.OrangeHRM;
-import org.sample.testcases.testdata.AddEmployee;
+import org.sample.tests.data.AddEmployee;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static io.github.sskorol.data.TestDataReader.use;
 
-public class OrangeHRMTest {
+public class OrangeHRMTests {
     OrangeHRM orangeHRM;
 
     @BeforeClass
