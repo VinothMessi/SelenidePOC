@@ -5,7 +5,7 @@
     <test name="Exploring Selenide E2E Functionalities">
 
         <classes>
-            <class name="org.sample.testcases.SanityTest"/>
+            <class name="org.sample.testcases.OrangeHRMTest"/>
         </classes>
 
     </test>

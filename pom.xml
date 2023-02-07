@@ -21,6 +21,7 @@
         <cucumber.version>7.11.1</cucumber.version>
         <testng.version>7.7.1</testng.version>
         <assertj.version>3.24.2</assertj.version>
+        <test-data-supplier.version>1.9.7</test-data-supplier.version>
     </properties>
 
     <dependencies>
@@ -75,6 +76,12 @@
             <artifactId>assertj-core</artifactId>
             <version>${assertj.version}</version>
             <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.github.sskorol/test-data-supplier -->
+        <dependency>
+            <groupId>io.github.sskorol</groupId>
+            <artifactId>test-data-supplier</artifactId>
+            <version>${test-data-supplier.version}</version>
         </dependency>
     </dependencies>
 

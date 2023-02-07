@@ -1,0 +1,37 @@
+[
+  {
+    "firstName": "Vinoth",
+    "middleName": "Murali",
+    "lastName": "Tester01",
+    "username": "VinothTester01",
+    "password": "Messi123!@"
+  },
+  {
+    "firstName": "Vinoth",
+    "middleName": "Murali",
+    "lastName": "Tester02",
+    "username": "VinothTester01",
+    "password": "Messi123!@"
+  },
+  {
+    "firstName": "Vinoth",
+    "middleName": "Murali",
+    "lastName": "Tester03",
+    "username": "VinothTester01",
+    "password": "Messi123!@"
+  },
+  {
+    "firstName": "Vinoth",
+    "middleName": "Murali",
+    "lastName": "Tester04",
+    "username": "VinothTester01",
+    "password": "Messi123!@"
+  },
+  {
+    "firstName": "Vinoth",
+    "middleName": "Murali",
+    "lastName": "Tester05",
+    "username": "VinothTester01",
+    "password": "Messi123!@"
+  }
+]
