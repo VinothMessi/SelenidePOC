@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Proof Of Concept For Selenide" verbose="1">
+
+    <test name="Exploring Selenide E2E Functionalities">
+
+        <classes>
+            <class name="org.sample.testcases.SanityTest"/>
+        </classes>
+
+    </test>
+
+</suite>
