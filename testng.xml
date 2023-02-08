@@ -2,7 +2,7 @@
 
 <suite name="Proof Of Concept For Selenide" verbose="1">
 
-    <test name="Orange HRM Application Tests">
+    <test name="Orange HRM Application Tests" parallel="classes">
 
         <classes>
             <class name="org.sample.tests.orangehrm.AddEmployeesTests"/>
