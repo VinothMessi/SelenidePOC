@@ -1,9 +1,9 @@
-package org.sample.designpattern.orangehrm.pages;
+package org.sample.designpattern.orangehrm.pages.pim;
 
 import static com.codeborne.selenide.Condition.*;
 
 import com.codeborne.selenide.Selenide;
-import org.sample.designpattern.orangehrm.elements.PIMElements;
+import org.sample.designpattern.orangehrm.elements.pim.PIMElements;
 
 public class PIM implements PIMElements {
     public PIM hasItLoaded() {

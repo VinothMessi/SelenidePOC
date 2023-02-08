@@ -1,0 +1,62 @@
+[
+  {
+    "firstName": "Vinoth",
+    "middleName": "Murali",
+    "lastName": "Tester01",
+    "role": "Associate IT Manager",
+    "email": "vinoth.murali01@gmail.com",
+    "number": "1234567890",
+    "file": "src/test/resources/upload/resume.docx",
+    "keywords": "Manager",
+    "date": "2023-02-11",
+    "notes": "Testing Vinoth Murali Tester01"
+  },
+  {
+    "firstName": "Vinoth",
+    "middleName": "Murali",
+    "lastName": "Tester02",
+    "role": "Junior Account Assistant",
+    "email": "vinoth.murali02@gmail.com",
+    "number": "2345678901",
+    "file": "src/test/resources/upload/resume.png",
+    "keywords": "Assistant",
+    "date": "2023-02-12",
+    "notes": "Testing Vinoth Murali Tester02"
+  },
+  {
+    "firstName": "Vinoth",
+    "middleName": "Murali",
+    "lastName": "Tester03",
+    "role": "Payroll Administrator",
+    "email": "vinoth.murali03@gmail.com",
+    "number": "3456789012",
+    "file": "src/test/resources/upload/resume.txt",
+    "keywords": "Administrator",
+    "date": "2023-02-13",
+    "notes": "Testing Vinoth Murali Tester03"
+  },
+  {
+    "firstName": "Vinoth",
+    "middleName": "Murali",
+    "lastName": "Tester04",
+    "role": "Sales Representative",
+    "email": "vinoth.murali04@gmail.com",
+    "number": "4567890123",
+    "file": "src/test/resources/upload/resume.xlsx",
+    "keywords": "Representative",
+    "date": "2023-02-14",
+    "notes": "Testing Vinoth Murali Tester04"
+  },
+  {
+    "firstName": "Vinoth",
+    "middleName": "Murali",
+    "lastName": "Tester05",
+    "role": "Senior QA Lead",
+    "email": "vinoth.murali05@gmail.com",
+    "number": "5678901234",
+    "file": "src/test/resources/upload/resume.accdb",
+    "keywords": "Lead",
+    "date": "2023-02-15",
+    "notes": "Testing Vinoth Murali Tester05"
+  }
+]

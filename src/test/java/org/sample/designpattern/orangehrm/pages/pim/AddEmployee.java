@@ -1,8 +1,9 @@
-package org.sample.designpattern.orangehrm.pages;
+package org.sample.designpattern.orangehrm.pages.pim;
 
 import com.codeborne.selenide.Selenide;
-import org.sample.designpattern.orangehrm.elements.AddEmployeeElements;
+import org.sample.designpattern.orangehrm.elements.pim.AddEmployeeElements;
 import org.sample.designpattern.orangehrm.elements.SideNavigationElements;
+import org.sample.designpattern.orangehrm.pages.Dashboard;
 
 import static com.codeborne.selenide.Condition.*;
 
@@ -31,7 +32,7 @@ public class AddEmployee implements AddEmployeeElements, SideNavigationElements 
         Save.shouldBe(visible).shouldBe(enabled).shouldHave(appear).click();
     }
 
-    public Dashboard goToDashboard() {
+    public org.sample.designpattern.orangehrm.pages.Dashboard goToDashboard() {
         Dashboard.shouldBe(visible).shouldBe(enabled).shouldHave(appear).click();
         return Selenide.page(Dashboard.class);
     }

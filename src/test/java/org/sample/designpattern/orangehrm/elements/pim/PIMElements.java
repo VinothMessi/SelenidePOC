@@ -1,4 +1,4 @@
-package org.sample.designpattern.orangehrm.elements;
+package org.sample.designpattern.orangehrm.elements.pim;
 
 import com.codeborne.selenide.SelenideElement;
 

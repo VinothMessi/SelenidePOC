@@ -1,8 +1,9 @@
-package org.sample.designpattern.orangehrm.pages;
+package org.sample.designpattern.orangehrm.pages.admin;
 
 import com.codeborne.selenide.Selenide;
-import org.sample.designpattern.orangehrm.elements.AddUserElements;
+import org.sample.designpattern.orangehrm.elements.admin.AddUserElements;
 import org.sample.designpattern.orangehrm.elements.SideNavigationElements;
+import org.sample.designpattern.orangehrm.pages.Dashboard;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;

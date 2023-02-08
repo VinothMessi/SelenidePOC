@@ -1,7 +1,7 @@
-package org.sample.designpattern.orangehrm.pages;
+package org.sample.designpattern.orangehrm.pages.admin;
 
 import com.codeborne.selenide.Selenide;
-import org.sample.designpattern.orangehrm.elements.AdminElements;
+import org.sample.designpattern.orangehrm.elements.admin.AdminElements;
 
 import static com.codeborne.selenide.Condition.*;
 
