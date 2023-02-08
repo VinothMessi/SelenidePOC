@@ -1,16 +1,16 @@
-package org.sample.tests.cases;
+package org.sample.tests.orangehrm;
 
 import io.github.sskorol.core.DataSupplier;
 import io.github.sskorol.data.JsonReader;
 import one.util.streamex.StreamEx;
 import org.sample.designpattern.orangehrm.pages.OrangeHRM;
-import org.sample.tests.data.AddEmployee;
+import org.sample.tests.orangehrm.data.AddUser;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static io.github.sskorol.data.TestDataReader.use;
 
-public class OrangeHRMTests {
+public class AddUsersTests {
     OrangeHRM orangeHRM;
 
     @BeforeClass
@@ -18,20 +18,20 @@ public class OrangeHRMTests {
         orangeHRM = new OrangeHRM();
     }
 
-    @Test(dataProvider = "getTestData")
-    public void addEmployee(AddEmployee employee) {
+    @Test(dataProvider = "userData")
+    public void addUser(AddUser user) {
         orangeHRM
                 .openApplication("https://opensource-demo.orangehrmlive.com/")
                 .hasItLoaded()
                 .loginAs("Admin", "admin123")
                 .hasItLoaded()
-                .openPIM()
+                .openAdmin()
                 .hasItLoaded()
-                .addEmployee()
+                .addUsers()
                 .hasItLoaded()
-                .set(employee.getFirstName(), employee.getLastName(), employee.getLastName())
-                .set(employee.getUserName(), employee.getPassword())
-                /*.save()*/
+                .fill(user.getEmployeeName(), user.getUserName(), user.getPassword())
+                .setRoleAs(user.getUserRole())
+                .setStatusAs(user.getStatus())
                 .goToDashboard()
                 .hasItLoaded()
                 .logOut()
@@ -39,10 +39,10 @@ public class OrangeHRMTests {
     }
 
     @DataSupplier
-    public StreamEx<AddEmployee> getTestData() {
+    public StreamEx<AddUser> userData() {
         return use(JsonReader.class)
-                .withTarget(AddEmployee.class)
-                .withSource("testdata/add_employee.json")
+                .withTarget(AddUser.class)
+                .withSource("testdata/add_user.json")
                 .read();
     }
 }

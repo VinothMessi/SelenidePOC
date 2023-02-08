@@ -6,7 +6,7 @@ import org.sample.designpattern.orangehrm.elements.LoginElements;
 import static com.codeborne.selenide.Condition.*;
 
 public class Login implements LoginElements {
-    public org.sample.designpattern.orangehrm.pages.Login hasItLoaded() {
+    public Login hasItLoaded() {
         Image.shouldBe(visible).shouldHave(appear);
         ForgotPassword.shouldBe(visible).shouldBe(enabled).shouldHave(appear);
         return this;

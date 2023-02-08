@@ -1,0 +1,37 @@
+[
+  {
+    "userRole": "ESS",
+    "status": "Enabled",
+    "employeeName": "Vinoth Murali01",
+    "userName": "vinothmessi01",
+    "password": "Messi123!@"
+  },
+  {
+    "userRole": "ESS",
+    "status": "Disabled",
+    "employeeName": "Vinoth Murali02",
+    "userName": "vinothmessi02",
+    "password": "Messi123!@"
+  },
+  {
+    "userRole": "ESS",
+    "status": "Enabled",
+    "employeeName": "Vinoth Murali03",
+    "userName": "vinothmessi03",
+    "password": "Messi123!@"
+  },
+  {
+    "userRole": "ESS",
+    "status": "Disabled",
+    "employeeName": "Vinoth Murali04",
+    "userName": "vinothmessi04",
+    "password": "Messi123!@"
+  },
+  {
+    "userRole": "ESS",
+    "status": "Enabled",
+    "employeeName": "Vinoth Murali05",
+    "userName": "vinothmessi05",
+    "password": "Messi123!@"
+  }
+]

@@ -5,7 +5,8 @@
     <test name="Orange HRM Application Tests">
 
         <classes>
-            <class name="org.sample.tests.cases.OrangeHRMTests"/>
+            <class name="org.sample.tests.orangehrm.AddEmployeesTests"/>
+            <class name="org.sample.tests.orangehrm.AddUsersTests"/>
         </classes>
 
     </test>

@@ -19,6 +19,12 @@ public class Dashboard implements DashboardElements, SideNavigationElements {
         return Selenide.page(PIM.class);
     }
 
+    public Admin openAdmin() {
+        Search.shouldBe(visible).shouldBe(enabled).shouldHave(appear).setValue("Admin");
+        Admin.shouldBe(visible).shouldBe(enabled).shouldHave(appear).click();
+        return Selenide.page(Admin.class);
+    }
+
     public Login logOut() {
         ProfilePic.click();
         Logout.shouldBe(visible).shouldBe(enabled).shouldHave(appear).click();

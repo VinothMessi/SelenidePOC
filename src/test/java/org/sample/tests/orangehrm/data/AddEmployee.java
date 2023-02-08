@@ -1,4 +1,4 @@
-package org.sample.tests.data;
+package org.sample.tests.orangehrm.data;
 
 import lombok.*;
 
