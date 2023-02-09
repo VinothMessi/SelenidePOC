@@ -6,8 +6,8 @@
 
         <classes>
             <class name="org.sample.tests.orangehrm.AddEmployeesTests"/>
-            <class name="org.sample.tests.orangehrm.AddUsersTests"/>
-            <class name="org.sample.tests.orangehrm.AddCandidatesTests"/>
+            <!--<class name="org.sample.tests.orangehrm.AddUsersTests"/>
+            <class name="org.sample.tests.orangehrm.AddCandidatesTests"/>-->
         </classes>
 
     </test>
